@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NovaTech Solutions</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Section CSS Files -->
+  <link rel="stylesheet" href="header/header.css"/>
+  <link rel="stylesheet" href="banner/banner.css"/>
+  <link rel="stylesheet" href="body/body.css"/>
+  <link rel="stylesheet" href="footer/footer.css"/>
+
+  <style>
+    :root {
+      --navy:      #0d1b2a;
+      --teal:      #0a9396;
+      --teal-light:#94d2bd;
+      --gold:      #e9c46a;
+      --coral:     #e76f51;
+      --white:     #f8f9fa;
+      --gray-light:#edf2f4;
+      --gray-mid:  #8d99ae;
+      --font-heading: 'Playfair Display', serif;
+      --font-body:    'DM Sans', sans-serif;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); background: var(--white); color: var(--navy); overflow-x: hidden; }
+
+    /* Scroll Reveal */
+    .reveal { opacity:0; transform:translateY(28px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+  </style>
+</head>
+<body>
+
+  <!-- Sections load here -->
+  <div id="header-container"></div>
+  <div id="banner-container"></div>
+  <div id="body-container"></div>
+  <div id="footer-container"></div>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

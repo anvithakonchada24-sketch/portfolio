@@ -1,0 +1,50 @@
+<!-- ===== TOP BAR ===== -->
+<div class="top-bar">
+  <div class="contact-info">
+    <span><i class="fa fa-envelope"></i>
+      <a href="mailto:hello@novatech.com">hello@novatech.com</a>
+    </span>
+    <span><i class="fa fa-phone"></i>+1 (800) 123-4567</span>
+  </div>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav>
+  <div class="logo">Nova<span>Tech</span></div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#" class="active">Home</a></li>
+    <li>
+      <a href="#about">About <i class="fa fa-chevron-down"></i></a>
+      <ul class="submenu">
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#services">Services <i class="fa fa-chevron-down"></i></a>
+      <ul class="submenu">
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">Development</a></li>
+        <li><a href="#">Consulting</a></li>
+      </ul>
+    </li>
+    <li><a href="#cta">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-search">
+    <input type="text" placeholder="Search…" id="searchInput"/>
+    <button onclick="doSearch()"><i class="fa fa-search"></i></button>
+  </div>
+
+  <div class="hamburger" id="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
